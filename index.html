@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="uz">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Temurbek Kafe — milliy ta’m, yuksak mehmondo‘stlik. Menyu va buyurtmalar.">
+<title>Temurbek Kafe | Milliy ta’m</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#"><span class="brand-mark">T</span><span><b>TEMURBEK</b><small>K A F E</small></span></a>
+  <nav id="nav"><a href="#home">Bosh sahifa</a><a href="#menu">Menyu</a><a href="#about">Biz haqimizda</a><a href="#reviews">Fikrlar</a><a href="#contact">Aloqa</a></nav>
+  <div class="head-actions"><button class="icon-btn" id="openSearch" aria-label="Qidirish">⌕</button><button class="cart-btn" id="openCart">Savatcha <span id="cartCount">0</span></button><button class="hamburger" id="hamburger" aria-label="Menyu">☰</button></div>
+</header>
+<main>
+<section class="hero" id="home">
+  <div class="hero-overlay"></div><div class="hero-content">
+    <span class="eyebrow"><i></i> SAMIMIY MUHIT • UNUTILMAS TA’M</span>
+    <h1>Milliy ta’m,<br><em>yuksak mehmondo‘stlik.</em></h1>
+    <p>Sevimli taomlaringiz, iliq muhit va mazali lahzalar — barchasi Temurbek Kafeda.</p>
+    <div class="hero-buttons"><a class="btn btn-light" href="#menu">Menyuni ko‘rish <span>↗</span></a><button class="btn btn-outline" id="heroOrder">Buyurtma berish</button></div>
+    <div class="hero-note"><span>✦</span> Milliy qadriyatlar zamonaviy taqdimotda</div>
+  </div>
+  <div class="hero-stamp"><span>MAZALI</span><b>♡</b><span>HAR KUNI</span></div>
+</section>
+<section class="trust-strip"><div><b>♥</b><span><strong>Mehr bilan tayyorlanadi</strong><small>Har bir taomda e’tibor</small></span></div><div><b>✧</b><span><strong>Sevimli ta’mlar</strong><small>Milliy va zamonaviy menyu</small></span></div><div><b>⌁</b><span><strong>Qulay buyurtma</strong><small>O‘zingizga mos usulni tanlang</small></span></div></section>
+<section class="section menu-section" id="menu">
+  <div class="section-heading"><div><span class="eyebrow red">TA’MGA BOY DUNYO</span><h2>Bizning <em>menyumiz</em></h2><p>Ko‘nglingiz tusagan ta’mni tanlang.</p></div><div class="search-wrap"><input id="searchInput" placeholder="Taom izlash..." aria-label="Taom izlash"><span>⌕</span></div></div>
+  <div class="categories" id="categories"></div>
+  <div class="menu-meta"><span id="resultCount">Taomlar</span><select id="sortSelect" aria-label="Saralash"><option value="default">Tartiblash</option><option value="asc">Narx: arzonidan</option><option value="desc">Narx: qimmatidan</option><option value="popular">Mashhurlar</option></select></div>
+  <div class="food-grid" id="foodGrid"></div>
+  <p class="price-note">* Narxlar namunaviy va taxminiy. Kafe tasdiqlagan narxlar bilan almashtiring.</p>
+</section>
+<section class="promo">
+  <div class="promo-copy"><span class="eyebrow">YAXSHI TA’M — YAXSHI KAYFIYAT</span><h2>Bir dasturxon atrofida<br><em>yanada yaqinmiz.</em></h2><p>Oila va do‘stlar bilan mazali lahzalarni Temurbek Kafeda o‘tkazing.</p><a href="#menu" class="btn btn-light">Menyuni tanlash ↗</a></div>
+  <div class="promo-photo"></div>
+</section>
+<section class="section about-section" id="about"><div class="about-photo"></div><div class="about-copy"><span class="eyebrow red">BIZ HAQIMIZDA</span><h2>Ta’mda an’ana,<br><em>mehmondo‘stlikda samimiyat.</em></h2><p>Temurbek Kafe — milliy qadriyatlar va zamonaviy qulaylik uyg‘unlashgan maskan. Siz uchun sevimli taomlarni samimiy muhitda taqdim etishga intilamiz.</p><div class="about-points"><span>✦ Milliy taomlar</span><span>✦ Samimiy xizmat</span><span>✦ Qulay buyurtma</span></div></div></section>
+<section class="section reviews" id="reviews"><div class="section-heading"><div><span class="eyebrow red">MEHMONLAR FIKRI</span><h2>Har bir fikr <em>qadrli</em></h2><p>Mijozlar fikri bo‘limi — haqiqiy izohlar bilan to‘ldiring.</p></div></div><div class="review-card"><div class="stars">★★★★★</div><p>“Bu yerga mijozlarning tasdiqlangan fikrlari joylashtiriladi.”</p><small>Namunaviy ko‘rinish — haqiqiy fikr bilan almashtiring</small></div></section>
+<section class="contact-band" id="contact"><div><span class="eyebrow">SIZNI KUTAMIZ</span><h2>Buyurtma berishga <em>tayyormisiz?</em></h2><p>O‘zingizga yoqqan taomlarni tanlang va biz bilan bog‘laning.</p></div><div class="contact-buttons"><a class="btn btn-light" href="#" id="telegramLink">Telegram orqali</a><a class="btn btn-outline" href="tel:+998000000000" id="phoneLink">Qo‘ng‘iroq qilish</a></div></section>
+</main>
+<footer><a class="brand brand-footer" href="#"><span class="brand-mark">T</span><span><b>TEMURBEK</b><small>K A F E</small></span></a><p>Milliy ta’m, yuksak mehmondo‘stlik.</p><div class="footer-links"><a href="#menu">Menyu</a><a href="#about">Biz haqimizda</a><a href="#contact">Aloqa</a><a href="admin.html">Admin</a></div><small>© <span id="year"></span> Temurbek Kafe</small></footer>
+<div class="toast" id="toast" role="status"></div>
+<div class="modal-backdrop" id="cartModal"><div class="modal"><button class="close-modal" data-close="cartModal">×</button><span class="eyebrow red">SIZNING TANLOVINGIZ</span><h2>Savatcha</h2><div id="cartItems"></div><div class="cart-total"><span>Jami</span><strong id="cartTotal">0 so‘m</strong></div><form id="orderForm" class="order-form"><label>Ismingiz<input required name="customer" placeholder="Ismingiz"></label><label>Telefon raqamingiz<input required name="phone" placeholder="+998..." type="tel"></label><label>Buyurtma usuli<select name="method"><option>Olib ketish</option><option>Yetkazib berish</option></select></label><label>Izoh<textarea name="note" placeholder="Qo‘shimcha istaklar..."></textarea></label><div class="order-actions"><button class="btn btn-red" type="submit">Buyurtmani tayyorlash</button><button class="btn btn-outline-dark" type="button" id="telegramOrder">Telegramga o‘tish</button></div><small class="form-note">Buyurtma bu namunaviy versiyada brauzerda saqlanadi. Haqiqiy buyurtma qabul qilish uchun Telegram yoki server ulanishi sozlanishi kerak.</small></form></div></div>
+<div class="modal-backdrop" id="searchModal"><div class="modal search-modal"><button class="close-modal" data-close="searchModal">×</button><h2>Taom izlash</h2><input id="modalSearch" placeholder="Masalan, lavash..." autofocus><button class="btn btn-red" id="searchGo">Qidirish</button></div></div>
+<script src="app.js"></script>
+</body></html>
